@@ -37,6 +37,7 @@ body{
     align-items: center;
     margin-top: 20px;
     padding: 20px;
+    border-radius: 20px;
 }
 .hero-info p{
     font-size: 20px;
@@ -115,6 +116,31 @@ body{
 #btn-3{
     background-color: orange;
 }
+/* dr */
+.dr{
+    background-color: white;
+    position: relative;
+    height: 150px;
+    border-radius: 15px;
+    margin: 50px 0px;
+    padding: 10px;
+}
+.dr-info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgb(86, 83, 83);
+    padding: 20px;
+}
+.dr-yunus{
+    font-size : 20px;
+    color: black;
+}
+.dr-img{
+    padding-left: 20px;
+    position: absolute;
+    top: 20;
+}
 
 /* recent news */
 .recent-news{
@@ -148,8 +174,6 @@ body{
 .card-info p{
     color: rgb(129, 127, 127);
 }
-.aljazeera{}
-.timeanddate{}
 .readmorebtn{
     text-decoration: none;
     background-color: green;
