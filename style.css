@@ -239,3 +239,34 @@ body {
   text-align: center;
   margin-top: 20px;
 }
+.news{
+  background-color: rgb(159, 241, 159);
+  border: 1px solid green;
+  border-radius: 10px;
+}
+.news-div{
+  text-align: center;
+}
+.news-end{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.news-input{
+  width: 50%;
+  padding: 10px;
+  border-top: 1px solid green;
+  border-left: 1px solid green;
+  border-bottom: 1px solid green;
+}
+.news-btn{
+  text-decoration: none;
+  background-color: green;
+  color: white;
+  padding: 10px 15px;
+  border-top: 1px solid green;
+  border-right: 1px solid green;
+  border-bottom: 1px solid green;
+  border-radius: 8px;
+  width: 90px;
+}
