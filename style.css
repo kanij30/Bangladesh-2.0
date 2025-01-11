@@ -211,11 +211,12 @@ body {
   font-size: 25px;
   font-weight: bold;
   border-radius: 15px;
+  color: black;
 }
-/* #taka2 {
+#taka2 {
   background-color: rgb(117, 172, 117);
   border: 1px solid green;
-} */
+}
 .taka:hover {
   background-color: green;
 }
@@ -226,6 +227,8 @@ body {
 }
 .amount-field {
   text-align: center;
+  margin-top: 20px;
+
 }
 .submit-btn {
   background-color: green;
@@ -243,6 +246,7 @@ body {
   background-color: rgb(159, 241, 159);
   border: 1px solid green;
   border-radius: 10px;
+
 }
 .news-div{
   text-align: center;
@@ -269,4 +273,24 @@ body {
   border-bottom: 1px solid green;
   border-radius: 8px;
   width: 90px;
+}
+.spam{
+  text-align: center;
+  color: silver;
+}
+/* footer  */
+footer{
+  margin-top: 60px;
+  background-color: white;
+  text-align: center;
+  padding: 10px 40px;
+}
+.footer-info{
+  padding: 50px;
+}
+.footer-img{
+  padding: 20px;
+}
+hr{
+  margin-top: 20px;
 }
