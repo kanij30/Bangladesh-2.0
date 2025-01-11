@@ -143,9 +143,6 @@ body{
 }
 
 /* recent news */
-.recent-news{
-}
-.recent-news h2{}
 .recent-news p{
     color: rgb(125, 121, 121);
     margin: 20px 0;
@@ -183,3 +180,26 @@ body{
     border-radius: 8px;
     width: 90px;
 }
+/* donate */
+
+.donate-h1{
+    font-size: 45px;
+    text-align: center;
+}
+.card-parent2{
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+    justify-content: center;
+}
+.donate-p{
+    color: rgb(129, 127, 127);
+    text-align: center;
+};
+.donate-heading{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+};
+

@@ -6,6 +6,44 @@
     <title>Bangladesh 2.0</title>
     <!-- Link Css -->
     <link rel="stylesheet" href="style.css">
+    <style>
+     
+        .taka {
+        background-color: white;
+        padding: 30px;
+        width: 150px;
+        font-size: 25px;
+        font-weight: bold;
+        border-radius: 15px;
+    }
+    #taka2{
+        background-color: rgb(117, 172, 117);
+        border: 1px solid green;
+    }
+    .taka:hover{
+        background-color: green;
+    }
+    .input{
+        height: 50px;
+        width: 700px;
+        text-align: center;
+    }
+    .amount-field{
+        text-align: center;
+    }
+    .submit-btn{
+        background-color: green;
+        color: white;
+        padding: 10px 30px;
+        font-size: 20px;
+        border: 1px solid green;
+        border-radius: 10px;
+    }
+    .submit{
+        text-align: center;
+        margin-top: 20px;
+    }
+    </style>
 </head>
 <body>
     <!-- header -->
@@ -158,7 +196,35 @@
                 </div>
             </div>
         </section>
-        
+        <!-- Donate section -->
+        <section class="donate-section">
+            <div class="donate-heading">
+                <h1 class="donate-h1">Donate Today</h1>
+                <p class="donate-p">Bangladesh 2.0 aims to refefine the nation's trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring Sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to bbecome a global model of developement.</p>     
+            </div>
+            <!-- donate amount -->
+            <div class="card-parent2">
+                    <div class="taka">
+                        <p>100 Taka</p>
+                    </div>
+                    <div class="taka" id="taka2">
+                        <p>200 Taka</p>
+                    </div>
+                    <div class="taka">
+                        <p>500 Taka</p>
+                    </div>
+                    <div class="taka">
+                        <p>1000 Taka</p>
+                    </div>
+            </div>
+            <!-- imput -->
+            <div class="amount-field">
+                <input class="input" type="text" placeholder="Other Amount (Taka)"> <br>
+            </div>
+            <div class="submit">
+                <input class="submit-btn" type="submit">
+            </div>
+        </section>
     </main>
     <!-- mian -->
 </body>
