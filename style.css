@@ -163,7 +163,7 @@ body{
 .card-info{
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
 }
 .timeanddate{
     color: rgb(161, 158, 158);
@@ -205,11 +205,12 @@ body{
     margin: 50px 0px;
 };
 .taka{
-    background-color: white;
+    background-color: pink;
     padding: 30px;
     width: 150px;
     font-size: 25px;
     font-weight: bold;
+    border: 1px solid green;
     border-radius: 15px;
 };
 #taka2{
