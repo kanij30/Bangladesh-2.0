@@ -287,9 +287,10 @@ footer{
 }
 .footer-info{
   padding: 50px;
+  text-align: center;
 }
 .footer-img{
-  padding: 20px;
+  padding: 18px;
 }
 hr{
   margin-top: 20px;
