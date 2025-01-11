@@ -8,7 +8,7 @@ body{
     margin: auto;
     height: 100vh;
     font-family: "Poppins", serif;
-    background-color: rgb(246, 241, 241);
+    background-color: rgb(248, 248, 248);
 }
 /* navbar */
 #bg{
@@ -21,10 +21,13 @@ body{
     text-decoration: none;
     padding: 10px;
     color: green;
+    border: 1px solid green;
+    border-radius: 8px;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 /* hero section */
 .hero{
@@ -53,7 +56,7 @@ body{
 
 /* Pillar section */
 .pillar-section{
-    margin-top: 20px;
+    margin-top: 50px;
 }
 .card-parent{
     display: flex;
@@ -61,11 +64,54 @@ body{
     margin: 20px 0;
 }
 .card{
-    border: 1px solid black;
+    border: 1px solid rgb(232, 226, 226);
     border-radius: 9px;
     padding: 10px 20px;
     background-color: white;
 }
 .card p{
     color: rgb(107, 106, 106);
+}
+
+/* vision section */
+.vision-section{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.vision-section p{
+    color: gray;
+}
+.vision-card{
+    padding: 20px;
+    border-radius: 15px;
+}
+.vision-card h2{
+    margin: 20px 0px;
+}
+.vision-card p{
+    margin: 20px 0px;
+}
+#card-1{
+    background-color: rgb(185, 226, 243);
+}
+#card-2{
+    background-color: rgb(200, 244, 200);
+}
+#card-3{
+    background-color: rgb(246, 246, 186);
+}
+.btn-leanmore{
+    font-size: 18px;
+    padding: 10px 17px;
+    border-radius: 10px;
+    color: white;
+}
+#btn-1{
+    background-color: rgb(102, 102, 238);
+}
+#btn-2{
+    background-color: rgb(35, 213, 142);
+}
+#btn-3{
+    background-color: orange;
 }
